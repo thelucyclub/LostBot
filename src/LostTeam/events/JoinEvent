@@ -1,6 +1,6 @@
 <?php
 
-namespace LostTeam\events\JoinEvent;
+namespace LostTeam\events;
 
 use LostTeam\Main;
 
