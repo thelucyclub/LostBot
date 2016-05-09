@@ -1,0 +1,17 @@
+<?php
+
+namespace LostTeam\events\JoinEvent;
+
+use LostTeam\Main;
+
+use pocketmine\event\Listener;
+use pocketmine\utils\TextFormat as TF;
+use pocketmine\event\player\PlayerChatEvent;
+
+class Chat extends Loader implements Listener{
+    
+    public function onChat(PlayerChatEvent $event){
+
+
+       }
+}
