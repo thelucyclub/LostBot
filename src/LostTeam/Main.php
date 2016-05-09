@@ -19,19 +19,16 @@ class Main extends PluginBase implements Listener {
 
           if(strtolower($command) === "bot"){
             if($args[0] === "version") {
-
-      
-
+        $sender->sendMessage(TF::AQUA."LostBot:".TF::GREEN." Im running on 1.0.0 LostTeams chip.");
        }
             if($args[0] === disable){
-
-
-
+        $sender->sendMessage(TF::AQUA."LostBot:".TF::RED." Disabled.");
+        $this->getPluginManager()->disablePlugin($this)
        }
             if($args[0] === help){
-        $sender->sendMessage(TextFormat::YELLOW."Help: /bot help");
-        $sender->sendMessage(TextFormat::YELLOW."Version: /bot version");
-        $sender->sendMessage(TextFormat::YELLOW."Exit: /bot disable");
+        $sender->sendMessage(TF::YELLOW."LostBot: /bot help");
+        $sender->sendMessage(TF::YELLOW."LostBot: /bot version");
+        $sender->sendMessage(TF::YELLOW."LostBot: /bot disable");
 
        }
 
