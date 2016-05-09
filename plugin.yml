@@ -1,5 +1,15 @@
 name: LostBot
 version: 1.0.0
-api: 2.0.0
+api: [2.0.0, 1.13.1]
 main: LostTeam\Main
-author: LostTeam
+author: "LostTeam"
+description: ""
+commands:
+  bot:
+    usage: "/bot <Sub-Command>"
+    permission: bot.cmd
+    description: "bot command"
+permissions:
+  bot.cmd:
+    default: true
+    description: ""
