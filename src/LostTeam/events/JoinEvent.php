@@ -13,9 +13,6 @@ class JoinEvent implements Listener {
         $this->plugin = $plugin
     }
     public function onChat(PlayerChatEvent $event){
-        $message = $this->getMessage();
-        if($message == "Hello" or "Hi") {
-            //
-        }
+        $this->getServer()->broadcastMessage("Welcome ".$event->getPlayer()->getName()."!");
     }
 }
