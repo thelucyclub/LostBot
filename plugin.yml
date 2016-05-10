@@ -12,4 +12,4 @@ commands:
 permissions:
   bot.cmd:
     default: true
-    description: ""
+    description: "Allows or unallows the user to use the bot command."
