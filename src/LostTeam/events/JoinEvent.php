@@ -5,7 +5,7 @@ use LostTeam\Main;
 
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as TF;
-use pocketmine\event\player\PlayerJoimEvent;
+use pocketmine\event\player\PlayerJoinEvent;
 
 class JoinEvent implements Listener {
     public $plugin;
