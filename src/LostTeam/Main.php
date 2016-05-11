@@ -2,6 +2,7 @@
 namespace LostTeam;
 
 use LostTeam\events\JoinEvent;
+use LostTeam\events\ChatEvent;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;	
