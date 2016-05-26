@@ -13,7 +13,10 @@ class ChatEvent implements Listener {
 
 
 public function onChat(PlayerChatEvent $event) {
-
+      $msg = $event->getMessage();
+      if($msg == "Hello"){
+         $this->getServer()->broadcastMessage(TF:RED."LostBot".TF:WHITE." > Hello ".$event->getPlayer()->getName());
+}
 
 
 
