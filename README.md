@@ -1,2 +1,2 @@
 # LostBot
-Bot that will response to you.
+Bot that will respond to you.
