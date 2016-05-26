@@ -13,8 +13,6 @@ class JoinEvent implements Listener {
         $this->plugin = $plugin
     }
     public function onJoin(PlayerJoinEvent $event){
-
-     
-        $this->getServer()->broadcastMessage(TF:RED."LostBot".TF:WHITE."Welcome ".$event->getPlayer()->getName()."!");
+        $this->getServer()->broadcastMessage(TF::RED."LostBot".TF::WHITE."Welcome ".$event->getPlayer()->getName()."!");
     }
 }
